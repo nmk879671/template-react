@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="header-content">
+          <h1>🎄 Merry Christmas! 🎄</h1>
+          <p>Wishing you a colorful and joyful Christmas!</p>
+          <h2>Hi FEE~~~  Hi Vercel!!</h2>
+        </div>
       </header>
+
+      <main className="main-content">
+        <div className="christmas-decoration">
+          <div className="snowflakes">❄️❄️❄️</div>
+          <div className="tree">🎄</div>
+          <div className="lights">✨✨✨</div>
+        </div>
+
+        <footer>
+          <p>Have a wonderful holiday season!</p>
+        </footer>
+      </main>
     </div>
   );
 }
