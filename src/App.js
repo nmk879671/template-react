@@ -7,7 +7,7 @@ function App() {
         <div className="header-content">
           <h1>🎄 Merry Christmas! 🎄</h1>
           <p>Wishing you a colorful and joyful Christmas!</p>
-          <h2>Hi FEE~~~  Hi Vercel!!</h2>
+          <h2>Hi FEE~~~  Hi Vercel Preview Mode!!</h2>
         </div>
       </header>
 
